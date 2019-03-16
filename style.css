@@ -65,9 +65,7 @@ button.active {
   margin: auto;
   padding-top: 20px; }
 
-/* Hide the images by default */
-.mySlides {
-  display: block; }
+
 
 /* Next & previous buttons */
 .prev, .next {
