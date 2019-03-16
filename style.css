@@ -65,6 +65,7 @@ button.active {
   margin: auto;
   padding-top: 20px; }
 
+/* Hide the images by default */
 .mySlides {
   display: none; }
 
@@ -152,9 +153,23 @@ button.active {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #fff;
   color: #444; }
+  .niz .myForm {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em;
+    background: beige;
+    padding: 8.2em; }
   .niz .a {
     grid-column: 1 / span 2;
-    padding-left: 50px;
+    padding-left: 50px; }
+  .niz .submit {
+    padding-top: 10px; }
+  .niz .question {
+    padding-bottom: 10px; }
+  .niz .a {
     display: none; }
   .niz .b {
     grid-column: 3;
@@ -168,34 +183,6 @@ button.active {
     grid-column: 2;
     grid-row: 2;
     padding-left: 30px; }
-  .niz .social {
-    display: none; }
-  .niz .myForm {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    grid-gap: .8em;
-    background: beige;
-    padding: 1.2em; }
-  .niz .name {
-    grid-row-start: 1;
-    grid-row-end: 2; }
-  .niz .email {
-    grid-row-start: 2;
-    grid-row-end: 3; }
-  .niz .comments {
-    grid-row-start: 3;
-    grid-row-end: 4; }
-  .niz .ten {
-    padding-right: 10px; }
-  .niz .twelve {
-    padding-right: 20px; }
-  .niz .submit {
-    padding-top: 10px; }
-  .niz .question {
-    padding-bottom: 10px; }
 
 .niz1 {
   display: grid;
@@ -203,15 +190,26 @@ button.active {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #fff;
   color: #444; }
+  .niz1 .myForm {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em;
+    background: beige;
+    padding: 8.2em; }
   .niz1 .a {
     grid-column: 1 / span 2;
     padding-left: 50px; }
+  .niz1 .submit {
+    padding-top: 10px; }
+  .niz1 .question {
+    padding-bottom: 10px; }
   .niz1 .b {
     grid-column: 3;
     grid-row: 1 / span 2;
-    padding-left: 165px; }
-    .niz1 .b input {
-      size: 300px; }
+    padding-left: 115px; }
   .niz1 .c {
     display: none;
     grid-column: 2;
@@ -221,48 +219,6 @@ button.active {
     display: none;
     grid-column: 1;
     grid-row: 2; }
-  .niz1 .social {
-    display: none; }
-  .niz1 .myForm {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    grid-gap: .8em;
-    background: beige;
-    padding: 1.2em; }
-    .niz1 .myForm input {
-      size: 300px; }
-  .niz1 input[type=text] {
-    width: 200px; }
-  .niz1 input {
-    size: 300px; }
-  .niz1 .name {
-    grid-row-start: 1;
-    grid-row-end: 2; }
-  .niz1 .email {
-    grid-row-start: 2;
-    grid-row-end: 3; }
-  .niz1 .comments {
-    grid-row-start: 3;
-    grid-row-end: 4; }
-  .niz1 .ten {
-    padding-right: 10px; }
-  .niz1 .twelve {
-    padding-right: 20px; }
-  .niz1 .submit {
-    padding-top: 10px; }
-  .niz1 .question {
-    padding-bottom: 10px; }
-
-.text22 {
-  padding-top: 5px;
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px; }
-  .text22 p {
-    display: inline; }
 
 .niz2 {
   display: grid;
@@ -270,16 +226,28 @@ button.active {
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #fff;
   color: #444; }
+  .niz2 .myForm {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-gap: .8em;
+    background: beige;
+    padding: 8.2em; }
   .niz2 .a {
     grid-column: 1 / span 2;
-    padding-left: 50px;
+    padding-left: 50px; }
+  .niz2 .submit {
+    padding-top: 10px; }
+  .niz2 .question {
+    padding-bottom: 10px; }
+  .niz2 .a {
     display: none; }
   .niz2 .b {
     grid-column: 2/ span 2;
     grid-row: 1 / span 2;
     padding-left: 165px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 10px; }
   .niz2 .c {
     grid-column: 1;
@@ -291,41 +259,14 @@ button.active {
     grid-row: 2;
     width: 60%;
     padding-left: 50px; }
-  .niz2 .myForm {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-flow: row;
-    grid-gap: .8em;
-    background: beige;
-    padding: 8.2em; }
-  .niz2 .name {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
-  .niz2 .email {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
-  .niz2 .comments {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    size: 150%; }
-  .niz2 .ten {
-    padding-right: 10px; }
-  .niz2 .twelve {
-    padding-right: 20px; }
-  .niz2 .submit {
-    padding-top: 10px; }
-  .niz2 .question {
-    padding-bottom: 10px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2; }
+
+.text22 {
+  padding-top: 5px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .text22 p {
+    display: inline; }
 
 body {
   color: #ffffff; }
