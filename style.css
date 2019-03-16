@@ -65,7 +65,8 @@ button.active {
   margin: auto;
   padding-top: 20px; }
 
-
+.mySlides {
+  display: none; }
 
 /* Next & previous buttons */
 .prev, .next {
